@@ -26,7 +26,7 @@ workflow_status:
   # Phase 1: Analysis (Optional)
   brainstorm-project: "_bmad-output/analysis/brainstorming-session-2026-01-08.md"
   research: skipped
-  product-brief: optional
+  product-brief: "_bmad-output/planning-artifacts/product-brief-yoboho-workflow-2026-01-08.md"
 
   # Phase 2: Planning
   prd: required
