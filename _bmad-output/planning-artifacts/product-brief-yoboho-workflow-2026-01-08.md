@@ -1,5 +1,5 @@
 ---
-stepsCompleted: [1, 2]
+stepsCompleted: [1, 2, 3, 4, 5]
 inputDocuments:
   - "_bmad-output/analysis/brainstorming-session-2026-01-08.md"
 date: 2026-01-08
@@ -303,6 +303,213 @@ SIMULTANEOUS:  [A] ════╦════► [B]
                [C] ════╝
                  (parallel)
 ```
+
+---
+
+## Target Users & Personas
+
+### Primary Users
+
+#### 1. Editor / Animator
+**Who they are:** Video editors who receive screenplays and produce final content. They work on assigned tasks from script writers/producers.
+
+**Current workflow:**
+- Receive screenplay via email
+- Edit video according to direction
+- Complete and notify (somehow)
+
+**Pain point:** When leadership asks "what did you do this month?" - they have no standard way to show their work. The data doesn't exist. It's frustrating to be asked questions they can't easily answer.
+
+**What success looks like:**
+- Open dashboard → see their queue clearly
+- Complete work → it's automatically logged
+- When asked "what did you do?" → instant proof of productivity
+
+---
+
+#### 2. Script Writer / Producer
+**Who they are:** Creative leads who generate ideas, write scripts, create screenplays, and direct editors. Often work across multiple IPs. They ARE the producers - they direct the editing process.
+
+**Current workflow:**
+- Generate ideas
+- Write scripts
+- Create screenplays
+- Email to editors with direction
+- Wait and hope
+
+**Pain point:** No visibility into editor queues. Don't know if their editor is available or buried in work.
+
+**What success looks like:**
+- See editor's current work + queue before finishing a script
+- Know exactly when to hand off
+- Direct editors with full visibility into their workload
+
+---
+
+#### 3. Channel Manager
+**Who they are:** Responsible for uploading finished content to YouTube and other platforms.
+
+**Current workflow:**
+- Wait for someone to tell them content is ready
+- Currently get NO notifications at all
+
+**Pain point:** Complete blindness. They don't know what's ready to upload until someone manually tells them.
+
+**What success looks like:**
+- Dashboard shows "Ready to Upload" list
+- No asking required - just look and upload
+
+---
+
+### Secondary Users
+
+#### Leadership / Management
+**Who they are:** Need production-wide visibility across all IPs and team members. Ask the big questions.
+
+**Questions they constantly ask:**
+- "How many scripts did we produce this month?"
+- "What did the editors do?"
+- "Where are the flaws/bottlenecks?"
+
+**Pain point:** No standard data exists. Have to ask people individually, who then have to remember or reconstruct their work from memory.
+
+**What success looks like:**
+- Ask AI → get instant answer with data
+- Glance at dashboard → know production status across all IPs
+- Identify bottlenecks before they become crises
+
+---
+
+### Key User Insight
+
+> **The frustration isn't with the WORK - it's with the REPORTING.**
+>
+> Editors do their job fine, but can't easily prove what they did.
+> Leadership can't easily see what was produced.
+> The data simply doesn't exist in a queryable format.
+>
+> **This tool creates that data automatically, as a byproduct of doing the work.**
+
+---
+
+## Success Metrics
+
+### North Star Metric
+> **Zero "where is X?" emails** - The dashboard answers every status question automatically.
+
+---
+
+### User Success Metrics
+
+| Role | Success Indicator | Measurement |
+|------|-------------------|-------------|
+| **Editor** | Clearer picture of their work history | Can show "what I did" in n days/weeks without keeping separate records |
+| **Editor** | Less confusion | Tasks and queue always visible, no ambiguity |
+| **Script Writer** | One place for all records | All scripts, screenplays, assignments tracked in single system |
+| **Channel Manager** | Clear picture of what's cooking | "In Progress" and "Ready to Upload" always visible |
+| **Leadership** | All data in one place | No more piecing together info from multiple sources |
+| **Leadership** | AI answers questions | "How many scripts this month?" answered in seconds |
+| **Leadership** | Less meetings | Status meetings reduced or eliminated |
+| **Leadership** | Accurate information | Data is real-time, not reconstructed from memory |
+
+---
+
+### Business Objectives (3-Month Goals)
+
+| Objective | Target |
+|-----------|--------|
+| **Time chasing updates** | Reduced by 80%+ |
+| **Visibility into bottlenecks** | Instant - see delays before they become crises |
+| **Status meetings** | Reduced or eliminated for routine updates |
+| **"Where is X?" questions** | Zero via email/chat - answered by dashboard |
+
+---
+
+### Key Performance Indicators
+
+| KPI | How We'll Measure | Target |
+|-----|-------------------|--------|
+| **Status inquiry emails** | Count of "where is X?" messages | → 0 |
+| **Time to answer production question** | Leadership query response time | < 30 seconds (via AI) |
+| **Editor self-tracking effort** | Need for separate spreadsheets/notes | Eliminated |
+| **Channel manager blindness** | Days content sits "ready" before upload | < 1 day |
+| **Bottleneck detection** | Time to identify delays | Real-time (automatic flags) |
+
+---
+
+### Leading Indicators (Early Signs of Success)
+
+| Indicator | What It Means |
+|-----------|---------------|
+| Editors check dashboard daily | Tool is useful, not ignored |
+| Fewer Slack/WhatsApp status questions | Dashboard is the answer |
+| Leadership uses AI queries weekly | Intelligence layer is valuable |
+| Channel managers upload faster | Visibility reduces delays |
+
+---
+
+## MVP Scope
+
+### Core Features (V1 Must-Have)
+
+| Feature | Description | Why Essential |
+|---------|-------------|---------------|
+| **Canvas Module** | Drag-drop workflow builder with process configuration | Core tool for designing production pipelines |
+| **Process Config** | Dependencies (linear/partial/simultaneous), user assignment, category mapping | Defines how work flows |
+| **Dashboard - My Work** | Personal queue with Table/Board/Gallery views | Every user needs to see their tasks |
+| **Dashboard - Observatory** | View-only access to any process within assigned IP+Workflow | Team awareness without interference |
+| **Fixed Major Columns** | Not Started → Scripting → Editing → Uploaded → Completed | Consistent status tracking across all workflows |
+| **AI Query Layer** | Natural language questions about production data | Core differentiator - instant answers |
+| **Email Notifications** | "You have work" nudges when tasks are assigned/ready | Basic handoff enablement |
+| **User Management** | Admin, Producer, Editor/Viewer roles with permissions | Access control foundation |
+| **Data Architecture** | Event-based logging of all state changes | AI-ready from day one |
+
+---
+
+### Out of Scope for MVP
+
+| Feature | Deferred To | Rationale |
+|---------|-------------|-----------|
+| Reporting dashboards with charts | V2 | AI queries cover basic needs; charts are polish |
+| Comments/collaboration on tasks | V2 | Adds complexity; not solving core visibility problem |
+| WhatsApp notifications | V2 | Start simple with email; expand channels later |
+| Gantt chart editing | V2 | Preview-only in V1; editing adds complexity |
+| Operational tasks table | V2 | Focus on video workflows first |
+| Advanced analytics | V2+ | Build data foundation first, analyze later |
+| Mobile app | V2+ | Web-first; mobile when core is proven |
+
+---
+
+### MVP Success Criteria
+
+| Criteria | Validation Method |
+|----------|-------------------|
+| Editors see their queue clearly | User testing - can they find their tasks in <10 seconds? |
+| Channel managers see "ready to upload" | Zero "what's ready?" questions after 2 weeks |
+| Leadership can query production | AI answers "how many scripts this month?" accurately |
+| "Where is X?" emails drop | Track before/after email counts |
+| Team adopts dashboard | Daily active usage by >80% of team within 1 month |
+
+---
+
+### Future Vision (V2+)
+
+**Short-term (V2):**
+- WhatsApp/Slack notifications
+- Reporting dashboards with charts
+- Comments and collaboration
+- Gantt chart editing
+- Operational tasks table
+
+**Medium-term (V3+):**
+- Mobile app
+- Advanced analytics and predictions
+- Anomaly detection ("this is taking longer than usual")
+- Bandwidth forecasting
+- Integration with external tools (Google Drive, etc.)
+
+**Long-term Vision:**
+> YoBoHo's production intelligence platform becomes the single source of truth for all content operations - a real-time nervous system that shows what's happening, predicts what's coming, and ensures nothing falls through the cracks.
 
 ---
 
