@@ -1,0 +1,38 @@
+  POTENTIAL ADDITIONS TO CONSIDER:
+
+  📊 REPORTING & ANALYTICS (Nice to have)
+     • Dashboards with charts (not just AI)
+     • Productivity metrics per user/team
+     • Bottleneck identification
+
+  💬 COLLABORATION  (Nice to have)
+     • Comments/discussion on tasks
+     • @mentions to notify teammates
+     • Feedback/review threads
+
+  ✅ APPROVALS  (must have)
+     • Sign-off gates between processes?
+     • "Manager must approve before moving to Edit"
+     -- the workflow creator will add this if he wants to 
+     -- will be assigned a major column name
+
+  📅 DEADLINES (must have)
+     • Due dates per task
+     • Due dates per process
+     • Overdue alerts 
+
+  🔍 SEARCH (must have)
+     • Find tasks, IPs, content across system
+     • Filter by status, assignee, date, etc.
+
+
+  📁 FILE MANAGEMENT (must have)
+     • Connect to google cloud
+
+
+  🗄️ ARCHIVE
+     • What happens to completed work? - > we can view those task using by goiing back to that time 
+
+  🔐 ROLES & PERMISSIONS
+     • Admin vs Editor vs Viewer
+     • Who can create workflows vs just use them?->admin, Producer
